@@ -215,6 +215,6 @@ There will be only one method, which add players to teams:
 
 ![](resources/image12.png)
 
-<p><b>Solution to all problems with unit tests: <a href="./encapsulationlab.java">Encapsulation Lab</a></b></p>
+<p><b>Solution to all problems with unit tests: <a href="./encapsulationlab">Encapsulation Lab</a></b></p>
 
-<p><b>Document with tasks description: <a href=".resources/02. Java-OOP-Basics-Encapsulation-Lab.docx">02. Java-OOP-Basics-Encapsulation-Lab.docx</a></b></p>
+<p><b>Document with tasks description: <a href="resources/02. Java-OOP-Basics-Encapsulation-Lab.docx">02. Java-OOP-Basics-Encapsulation-Lab.docx</a></b></p>
