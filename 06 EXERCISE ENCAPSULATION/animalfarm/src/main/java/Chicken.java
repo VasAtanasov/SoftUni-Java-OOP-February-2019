@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 
 public class Chicken {
-    private static final int LIVE_SPAN = 15;
+    private static final int LIFE_SPAN = 15;
     private static final DecimalFormat df = new DecimalFormat("0.##");
 
     private String name;
@@ -28,7 +28,7 @@ public class Chicken {
     }
 
     private void setAge(int age) {
-        if (age < 0 || age > LIVE_SPAN) {
+        if (age < 0 || age > LIFE_SPAN) {
             throw new IllegalArgumentException("Age should be between 0 and 15.");
         }
         this.age = age;
