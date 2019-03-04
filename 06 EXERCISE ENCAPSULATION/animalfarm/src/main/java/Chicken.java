@@ -28,7 +28,7 @@ public class Chicken {
     }
 
     private void setAge(int age) {
-        if (age < 0 || age >= LIVE_SPAN) {
+        if (age < 0 || age > LIVE_SPAN) {
             throw new IllegalArgumentException("Age should be between 0 and 15.");
         }
         this.age = age;
