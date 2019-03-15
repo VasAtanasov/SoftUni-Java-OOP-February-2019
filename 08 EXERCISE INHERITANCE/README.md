@@ -5,31 +5,17 @@ This document defines the exercises for "Java OOP" course @ Software University.
 ## Problem 1. Person
 
 <img src='https://g.gravizo.com/svg?
-/**
-*Structural Things
-*@opt commentname
-*@note Notes can
-*be extended to
-*span multiple lines
-*/
-class Structural{}
-
-/**
-*@opt all
-*@note Class
-*/
-class Counter extends Structural {
-        static public int counter;
-        public int getCounter%28%29;
-}
-
-/**
-*@opt shape activeclass
-*@opt all
-*@note Active Class
-*/
-class RunningCounter extends Counter{}
-'>
+ digraph G {
+   main -> parse -> execute;
+   main -> init;
+   main -> cleanup;
+   execute -> make_string;
+   execute -> printf
+   init -> make_string;
+   main -> printf;
+   execute -> compare;
+ }
+'/>
 
 
 Person
