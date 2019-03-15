@@ -4,32 +4,24 @@ This document defines the exercises for "Java OOP" course @ Software University.
 
 ## Problem 1. Person
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/VasAtanasov/SoftUni-Java-OOP-February-2019/master/08%20EXERCISE%20INHERITANCE/resources/UML/Person.puml)
+![PlantUML model](http://www.plantuml.com/plantuml/svg/ROz13i8W54Jt_nIpR5DxWSP5ZNjZuWc842IXaC3NZNftlmLYZ2wPDypCdpEhnDV5qz6a70EsZt74_kAy9ZfxbJCgk1C0Z0XgCHDEd5omLL9M51SOj0f3-z8Lr-RD-khDXW-IK56F2RVez0VkhEd4_WK6S2n-T09QEJtRn7LlMJYKns_tttI9c4tGSlyB)
 
-Person
--	name: String
--	age: int 
-+ 	Person (String, int)
--	setName(String) : void
--	setAge(int) : void
-+	toString () : String
+![alternative text](http://www.plantuml.com/plantuml/proxy?src=[https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt](https://raw.githubusercontent.com/VasAtanasov/SoftUni-Java-OOP-February-2019/master/08%20EXERCISE%20INHERITANCE/resources/UML/Person.txt))
 
 You are asked to model an application for storing data about people. You should be able to have a person and a child. The child is derived of the person. Your task is to model the application. The only constraints are:
-•	Person – represents the base class by which all others are implemented
-o	People should not be able to have negative age
-•	Child - represents a class which is derived by the class Person.
-Child
-	
-+ 	Child (String, int)
--	setAge(int) : void
-o	Children should not be able to have age greater than 15
- Input / Output
-See Examples!
-Constraints
-•	If the age of a person is negative – exception’s message is: "Age must be positive!"
-•	If the age of a child is bigger than 15 – exception’s message is: "Child's age must be lesser than 15!"
-•	If the name of a child or a person is less than 3 symbols – exception’s message is: "Name's length should not be less than 3 symbols!"
+
+- Person – represents the base class by which all others are implemented
+- People should not be able to have negative age
+- Child - represents a class which is derived by the class Person.
+
+### Constraints
+
+- If the age of a person is negative – exception’s message is: "Age must be positive!"
+- If the age of a child is bigger than 15 – exception’s message is: "Child's age must be lesser than 15!"
+- If the name of a child or a person is less than 3 symbols – exception’s message is: "Name's length should not be less than 3 symbols!"
+
 Note
+
 Your class’s names must be the same as the names shown above
 
 ### Sample Main()
@@ -66,9 +58,12 @@ public class Person {
 }
 ```
 
-Step 1. Define the fields
-Define a field for each property the class should have (e.g. name, age) 
-Step 2. Define the Properties of a Person
+### Step 1. Define the fields
+
+Define a field for each property the class should have (e.g. name, age)
+
+### Step 2. Define the Properties of a Person
+
 Define the name and age properties of a Person. Ensure that they can only be changed by the class itself or its descendants (pick the most appropriate access modifier). 
 
 #### Sample Code
@@ -91,7 +86,7 @@ Define the name and age properties of a Person. Ensure that they can only be cha
 }
 ```
 
-Step 3. Define a Constructor
+### Step 3. Define a Constructor
 
 Define a constructor that accepts name, age and address arguments.
 
@@ -104,9 +99,13 @@ public Person(String name, int age){
 }
 ```
 
-Step 4. Perform Validations
+### Step 4. Perform Validations
+
 After you have created a field for each property (e.g. name and age). Next step is to perform validations for each one. The getter should return the corresponding field’s value and the setter should validate the input data before setting it. Do this for each property.
-Sample Code
+
+### Sample Code
+
+```java
 protected void setAge(int age) throws IllegalArgumentException {
     if (age < 1) {
         throw new IllegalArgumentException("Age must be positive!");
@@ -114,10 +113,15 @@ protected void setAge(int age) throws IllegalArgumentException {
 
     // TODO: Set the age
 }
-Step 5. Override toString()
+```
+
+### Step 5. Override toString()
+
 As you probably already know, all classes in Java inherit the Object class and therefore have all its public members (toString(), equals() and getHashCode() methods). toString() serves to return information about an instance as string. Let's override (change) its behavior for our Person class.
 
-Sample Code
+### Sample Code
+
+```java
 @Override
 public String toString() {
     
@@ -126,32 +130,64 @@ public String toString() {
                     this.getAge()));
     
 }
+```
+
 If everything is correct, we can now create Person objects and display information about them.
-Step 6. Create a Child
+
+### Step 6. Create a Child
+
 Create a Child class that inherits Person and has the same constructor definition. However, do not copy the code from the Person class - reuse the Person class’s constructor.
-Sample Code
+
+### Sample Code
+
+```java
 public Child(String name, int age){
     super(name, age);
 }
+```
+
 There is no need to rewrite the Name and Age properties since Child inherits Person and by default has them.
-Step 7. Validate the Child’s setter
-Sample Code
+
+### Step 7. Validate the Child’s setter
+
+### Sample Code
+
+```java
 @Override
 protected void setAge(int age) throws IllegalArgumentException {
     //TODO: Validate the age
 
     super.setAge(age);
 }
+```
 
-Examples:
-Input	Message
-Pesho
-13	Name: Pesho, Age: 13
-God
-17	Child's age must be lesser than 15!
+### Examples
 
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pesho<br>13</td>
+<td>Name: Pesho, Age: 13</td>
+</tr>
+<tr>
+<td>God<br>17</td>
+<td>Child's age must be lesser than 15!</td>
+</tr>
+</tbody>
+</table>
 
-Problem 2.	Book Shop
+<p><b>Solution: <a href="./person/src">Person</a></b></p>
+
+## Problem 2. Book Shop
+
+![PlantUML model](http://www.plantuml.com/plantuml/svg/TP31pe8m48JlVOevGlXv0V8VqCHuDT4NGDfWO-sQTl6YlBlG5Iw4KvkPhpkThICtWVk7KtkYE_u_POaZEMtyGLksv9EiMjV4Y7H_Am0bsB8p5SuShEz4Qdg-KPWrYFWCjXqvJVtL6OMa5Z8f4_0FyobGBW-ZuSkKyQDoL7YHrOkvIsbRxccApMJWOWvAYgmRIgjYRMpzKV1k3ignL1nKRRmUD_e5)
+
 Book
 -	title: String
 -	author: String 
