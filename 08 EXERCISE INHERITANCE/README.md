@@ -4,19 +4,7 @@ This document defines the exercises for "Java OOP" course @ Software University.
 
 ## Problem 1. Person
 
-<img src='https://g.gravizo.com/svg?
- digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
- }
-'/>
-
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/VasAtanasov/SoftUni-Java-OOP-February-2019/master/08%20EXERCISE%20INHERITANCE/resources/UML/Person.puml)
 
 Person
 -	name: String
