@@ -186,7 +186,7 @@ The input ends when you receive the command “Let the Force be with you”. Whe
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./jedygalaxy/src">Jedi Galaxy</a></b></p>
+<p><b>Solution: <a href="./jedigalaxy/src">Jedi Galaxy</a></b></p>
 
 ## Problem 6. Greedy Times
 
