@@ -186,7 +186,7 @@ The input ends when you receive the command “Let the Force be with you”. Whe
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./jedygalaxy/src"></a></b></p>
+<p><b>Solution: <a href="./jedygalaxy/src">Jedi Galaxy</a></b></p>
 
 ## Problem 6. Greedy Times
 
@@ -254,6 +254,6 @@ Constraints
 </table>
 
 <p><b>Solution: <a href="./greedytimes/src">Greedy Times</a></b></p>
-<p><b>Other Solution: <a href="./greedytimesother/scr">Greedy Times</a></b></p>
+<p><b>Other Solution: <a href="./greedytimesother/src">Greedy Times</a></b></p>
 
 <p><b>Document with tasks description: <a href="./resources/01. Java-OOP-Working-with-Abstraction-Exercises.docx">01. Java-OOP-Working-with-Abstraction-Exercises.docx</a></b></p>
