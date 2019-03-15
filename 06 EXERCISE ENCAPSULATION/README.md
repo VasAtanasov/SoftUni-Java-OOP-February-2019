@@ -52,7 +52,7 @@ A box’s side should not be zero or a negative number. Expand your class from t
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./box/src/main/java"></a></b></p>
+<p><b>Solution: <a href="./box/src/main/java">Box</a></b></p>
 
 ## Problem 3. Animal Farm
 
@@ -88,7 +88,6 @@ Submit your code as a zip file in Judge. Make sure you have a public Main class 
 
 ### Examples
 
-
 <table>
 <thead>
 <tr>
@@ -112,7 +111,7 @@ Submit your code as a zip file in Judge. Make sure you have a public Main class 
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./animalfarm/src/main/java"></a></b></p>
+<p><b>Solution: <a href="./animalfarm/src/main/java">Animal Farm</a></b></p>
 
 ## Problem 4. Shopping Spree
 
@@ -125,7 +124,6 @@ On the first two lines you are given all people and all products. After all purc
 Read commands till you find line with "END" command. In case of invalid input (negative money exception message: "Money cannot be negative") or empty name: (empty name exception message "Name cannot be empty") break the program with an appropriate message. See the examples below:
 
 ### Examples
-
 
 <table>
 <thead>
@@ -150,7 +148,7 @@ Read commands till you find line with "END" command. In case of invalid input (n
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./shoppingspree/src/main/java"></a></b></p>
+<p><b>Solution: <a href="./shoppingspree/src/main/java">Shopping Spree</a></b></p>
 
 ## Problem 5. \*Pizza Calories
 
@@ -205,7 +203,6 @@ If creation of the pizza was successful print on a single line the name of the p
 
 ### Examples
 
-
 <table>
 <thead>
 <tr>
@@ -233,7 +230,7 @@ If creation of the pizza was successful print on a single line the name of the p
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./pizzacalories/src/main/java"></a></b></p>
+<p><b>Solution: <a href="./pizzacalories/src/main/java">Pizza Calories</a></b></p>
 
 ## Problem 6. \*\*Football Team Generator
 
