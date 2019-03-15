@@ -113,7 +113,7 @@ Your output should consist of n number of lines, including each updated traffic 
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./trafficlights">Traffic Lights</a></b></p>
+<p><b>Solution: <a href="./trafficlights/src">Traffic Lights</a></b></p>
 
 # Exercises: Working with Abstraction
  
@@ -141,74 +141,119 @@ second row: n+1, n+2, n+3… n + n.
 
 ![](./resources/media/image1.png)
 
+![](./resources/media/image2.png)
+
 Ivo starts with coordinates row = 5, col = -1. He must collect all stars with value [20, 16, 12, 8, 4]. Evil starts with coordinates row = 5, col = 5. The Evil destroys all stars in range [24, 18, 12, 6, 0]. The star with value 12 is the cross point for Ivo and The Evil, so Ivo skips the stars and collects only these who are not in the evil range. 
 
-  You will also receive multiple pairs of commands in the form of 2 integers separated by a single space. The first two integers will represent Ivo’s start coordinates. The second one will represent the Evil Power’s start coordinates.
-The input ends when you receive the command “Let the Force be with you”. When that happens, you must print the value of all stars that Ivo has collected successfully.
-Input
-•	On the first line, you will receive the number N, M -> the dimensions of the matrix. You must then fill the matrix according to these dimensions.
-•	On the next several lines you will begin receiving 2 integers separated by a single space, which represent Ivo’s row and col. On the next line you will receive the Evil Power’s coordinates.
-•	There will always be at least 2 lines of input to represent at least 1 path of Ivo and the Evil force.
-•	When you receive the command, “Let the Force be with you” the input ends.
-Output
-•	The output is simple. Print the sum of the values from all stars that Ivo has collected.
-Constraints
-•	The dimensions of the matrix will be integers in the range [5, 2000].
-•	The given rows will be valid integers in the range [0, 2000].
-•	The given columns will be valid integers in the range [-231 + 1, 231 - 1]. 
-Input	Output
-5 5
-5 -1
-5 5
-Let the Force be with you	48
-5 5
-4 -1
-4 5
-Let the Force be with you	29
-Problem 6. Greedy Times
-Finally, you have unlocked the safe and reached the treasure! Inside there are all kinds of gems, cash in different currencies and gold bullions. Next to you there is a bag which unfortunately has a limited space. You don’t have much time so you need to take as much wealth as possible! But in order to get a bigger amount of the most valuable items, you need to keep the following rules:
-•	The gold amount in your bag should always be more than or equal to the gem amount at any time
-•	The gem amount should always be more than or equal to the cash amount at any time
-If you read an item which breaks one of these rules you should not put it in the bag. You should always be careful not to exceed the overall bag’s capacity, because it will tear down and you will lose everything! You will receive the content of the safe on a single line in the format of item - quantity pairs, separated by whitespace. You need to gather only three types of items:
-•	Cash - All three letter items 
-•	Gem - All items which end on “Gem” (at least 4 symbols)
-•	Gold - this type has only one item with the name - “Gold”
-Each item which does not fall in one of the above categories is useless and you should skip it. Reading item’s names should be CASE-INSENSITIVE. You should aggregate item’s quantities which have the same name.
-If you’ve kept the rules you should escape successfully with a bag full of wealth. Now it’s time to review what you have managed to get out of the safe. Print all the types ordered by total amount in descending order. Inside a type, order the items first alphabetically in descending order and then by their amount in ascending order. Use the following format for each type:
-“<{type}> ${total amount}”
-“##{item} - {amount}” - each item from this type on new line
-Input
-•	On the first line, you will receive a number which represents the capacity of the bag
-•	On the second line, you will receive a sequence of item - quantity pairs
-Output
-Print only the types from which you have items in the bag ordered by Total Amount descending. Inside a type order the items first alphabetically in descending order and then by amount in ascending order. Use the following format for each type:
-“<{type}> ${total amount}”
-“##{item} - {amount}” - each item on new line
-Constraints
-•	Bag’s max capacity will always be a positive number
-•	All quantities will be positive integer in the range [0 … 2100000000]
-•	Each item of type gem will have a name - at least 4 symbols
-•	Time limit: 0.1 sec. Memory limit: 16 MB
-Examples
-Input	Output
-150
-Gold 28 Rubygem 16 USD 9 GBP 8	<Gold> $28
-##Gold - 28
-<Gem> $16
-##Rubygem - 16
-<Cash> $9
-##USD - 9
-24000010
-USD 1030 Gold 300000 EmeraldGem 900000 Topazgem 290000 CHF 280000 Gold 10000000 JPN 10000 Rubygem 10000000 KLM 3120010	<Gold> $10300000
-##Gold - 10300000
-<Gem> $10290000
-##Topazgem - 290000
-##Rubygem - 10000000
-<Cash> $3410010
-##KLM - 3120010
-##JPN - 10000
-##CHF - 280000
-80345
-RubyGem 70000 JAV 10960 Bau 60000 Gold 80000	<Gold> $80000
-##Gold - 80000
+You will also receive multiple pairs of commands in the form of 2 integers separated by a single space. The first two integers will represent Ivo’s start coordinates. The second one will represent the Evil Power’s start coordinates.
 
+The input ends when you receive the command “Let the Force be with you”. When that happens, you must print the value of all stars that Ivo has collected successfully.
+
+### Input
+
+- On the first line, you will receive the number N, M -> the dimensions of the matrix. You must then fill the matrix according to these dimensions.
+- On the next several lines you will begin receiving 2 integers separated by a single space, which represent Ivo’s row and col. On the next line you will receive the Evil Power’s coordinates.
+- There will always be at least 2 lines of input to represent at least 1 path of Ivo and the Evil force.
+- When you receive the command, “Let the Force be with you” the input ends.
+
+### Output
+
+- The output is simple. Print the sum of the values from all stars that Ivo has collected.
+
+### Constraints
+
+- The dimensions of the matrix will be integers in the range [5, 2000].
+- The given rows will be valid integers in the range [0, 2000].
+- The given columns will be valid integers in the range [-231 + 1, 231 - 1].
+
+
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 5<br>5 -1<br>5 5<br>Let the Force be with you</td>
+<td>48</td>
+</tr>
+<tr>
+<td>5 5<br>4 -1<br>4 5<br>Let the Force be with you</td>
+<td>29</td>
+</tr>
+</tbody>
+</table>
+
+<p><b>Solution: <a href="./jedygalaxy/src"></a></b></p>
+
+## Problem 6. Greedy Times
+
+Finally, you have unlocked the safe and reached the treasure! Inside there are all kinds of gems, cash in different currencies and gold bullions. Next to you there is a bag which unfortunately has a limited space. You don’t have much time so you need to take as much wealth as possible! But in order to get a bigger amount of the most valuable items, you need to keep the following rules:
+
+- The gold amount in your bag should always be more than or equal to the gem amount at any time
+- The gem amount should always be more than or equal to the cash amount at any time
+
+If you read an item which breaks one of these rules you should not put it in the bag. You should always be careful not to exceed the overall bag’s capacity, because it will tear down and you will lose everything! You will receive the content of the safe on a single line in the format of item - quantity pairs, separated by whitespace. You need to gather only three types of items:
+
+- Cash - All three letter items 
+- Gem - All items which end on “Gem” (at least 4 symbols)
+- Gold - this type has only one item with the name - “Gold”
+
+Each item which does not fall in one of the above categories is useless and you should skip it. Reading item’s names should be CASE-INSENSITIVE. You should aggregate item’s quantities which have the same name.
+
+If you’ve kept the rules you should escape successfully with a bag full of wealth. Now it’s time to review what you have managed to get out of the safe. Print all the types ordered by total amount in descending order. Inside a type, order the items first alphabetically in descending order and then by their amount in ascending order. Use the following format for each type:
+
+    “<{type}> ${total amount}”
+    “##{item} - {amount}” - each item from this type on new line
+
+### Input
+
+- On the first line, you will receive a number which represents the capacity of the bag
+- On the second line, you will receive a sequence of item - quantity pairs
+
+### Output
+
+Print only the types from which you have items in the bag ordered by Total Amount descending. Inside a type order the items first alphabetically in descending order and then by amount in ascending order. Use the following format for each type:
+
+    “<{type}> ${total amount}”
+    “##{item} - {amount}” - each item on new line
+
+Constraints
+
+- Bag’s max capacity will always be a positive number
+- All quantities will be positive integer in the range [0 … 2100000000]
+- Each item of type gem will have a name - at least 4 symbols
+- Time limit: 0.1 sec. Memory limit: 16 MB
+
+### Examples
+
+
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>150<br>Gold 28 Rubygem 16 USD 9 GBP 8</td>
+<td>&lt;Gold&gt; $28<br>##Gold - 28<br>&lt;Gem&gt; $16<br>##Rubygem - 16<br>&lt;Cash&gt; $9<br>##USD - 9</td>
+</tr>
+<tr>
+<td>24000010<br>USD 1030 Gold 300000 EmeraldGem 900000 Topazgem 290000 CHF 280000 Gold 10000000 JPN 10000 Rubygem 10000000 KLM 3120010	&lt;Gold&gt; $10300000</td>
+<td>##Gold - 10300000<br>&lt;Gem&gt; $10290000<br>##Topazgem - 290000<br>##Rubygem - 10000000<br><Cash> $3410010<br>##KLM - 3120010<br>##JPN - 10000<br>##CHF - 280000</td>
+</tr>
+<tr>
+<td>80345<br>RubyGem 70000 JAV 10960 Bau 60000 Gold 80000</td>
+<td>&lt;Gold&gt; $80000<br>##Gold - 80000</td>
+</tr>
+</tbody>
+</table>
+
+<p><b>Solution: <a href="./greedytimes/src">Greedy Times</a></b></p>
+<p><b>Other Solution: <a href="./greedytimesother/scr">Greedy Times</a></b></p>
+
+<p><b>Document with tasks description: <a href="./resources/01. Java-OOP-Working-with-Abstraction-Exercises.docx">01. Java-OOP-Working-with-Abstraction-Exercises.docx</a></b></p>
