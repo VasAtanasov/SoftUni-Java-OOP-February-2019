@@ -1,0 +1,20 @@
+@startuml
+Person <|-- Child
+
+class Person {
+    - name: String
+    - age: int 
+
+    + Person (String, int)
+    - setName(String) : void
+    - setAge(int) : void
+    + toString () : String
+
+}
+
+class Child {
+   + Child (String, int)
+   - setAge(int) : void
+
+}
+@enduml
