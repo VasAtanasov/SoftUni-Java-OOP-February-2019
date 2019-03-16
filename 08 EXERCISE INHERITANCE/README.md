@@ -668,6 +668,6 @@ On the console, you will be given some lines of code. Each two lines of code, re
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./animlas/src">Animals</a></b></p>
+<p><b>Solution: <a href="./animals/src">Animals</a></b></p>
 
 <p><b>Document with tasks description: <a href="./resources/03. Java-OOP-Inheritance-Exercises.docx">03. Java-OOP-Inheritance-Exercises.docx</a></b></p>
