@@ -82,6 +82,8 @@ Create a class Stack which can store only strings and has the following function
 - Public method: peek(): String
 - Public method: isEmpty(): boolean
 
+![](./resources/media/image7.png)
+
 ### Hints
 
 Use composition/delegation in order to have a field in which to store the stack's data
