@@ -323,6 +323,7 @@ Create interfaces which define the collections functionality, think how to model
 
 Your task is to create a single copy of your collections, after which on the first input line you will receive a random amount of strings in a single line separated by spaces - the elements you have to add to each of your collections. For each of your collections write a single line in the output that holds the results of all add operations separated by spaces (check the examples to better understand the format). On the second input line you will receive a single number - the amount of remove operations you have to call on each collection. In the same manner as with the Add operations for each collection (except the AddCollection), print a line with the results of each Remove operation separated by spaces.
 
+
 ![Problem7-UML](./resources/UML/Problem7-UML.png)
 
 ### Input
