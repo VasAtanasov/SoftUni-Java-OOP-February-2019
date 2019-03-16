@@ -268,6 +268,8 @@ number representing the last digits of fake ids, all citizens or robots whose Id
 </tbody>
 </table>
 
+<p><b>Solution: <a href="./bordercontrol/src">Border Control</a></b></p>
+
 ## \*MooD 3
 
 You are an owner of the most epic video game of the world - 3 MooD. Your employees have gone on summer vacation. But there is a problem in the application and you are on your own. So the problem is how to store the information for the players. The best approach to you, seems to be, storing them in GameObjects.
