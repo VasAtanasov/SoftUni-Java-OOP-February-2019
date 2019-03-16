@@ -1,4 +1,4 @@
-public interface GameObject {
+public interface GameObject<T> {
     String getUsername();
 
     String getCharacterType();
@@ -7,7 +7,7 @@ public interface GameObject {
 
     int getLevel();
 
-    String getHashedPassword();
+    T getHashedPassword();
 
-    void setHashedPassword(String password);
+    void setHashedPassword(T password);
 }

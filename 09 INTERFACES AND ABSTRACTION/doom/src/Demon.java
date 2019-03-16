@@ -1,13 +1,14 @@
-public class Demon extends Character {
-    private static String CHARACTER_TYPE = "Archangel";
+public class Demon extends Character<Integer> {
+    private static String CHARACTER_TYPE = "Demon";
 
-    public Demon(String username, int level, Double specalPoints) {
-        super(username, CHARACTER_TYPE, level, specalPoints);
-        super.setHashedPassword("" + super.getUsername().length() * 217);
+    public Demon(String username, int level, Double specialPoints) {
+        super(username, CHARACTER_TYPE, level, specialPoints);
+        super.setHashedPassword((super.getUsername().length() + 2) * 217);
     }
 
     @Override
     public String toString() {
-        return super.toString() +  (super.getSpecialPoints().intValue() * super.getLevel());
+        return super.toString() +
+                String.format("%.1f", super.getSpecialPoints().doubleValue() * super.getLevel());
     }
 }

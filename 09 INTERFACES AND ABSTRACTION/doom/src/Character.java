@@ -1,9 +1,9 @@
-public abstract class Character implements GameObject {
+public abstract class Character<T> implements GameObject<T> {
     private String username;
     private String characterType;
     private int level;
     private Number specialPoints;
-    private String hashedPassword;
+    private T hashedPassword;
 
     public Character(String username, String characterType, int level, Number specialPoints) {
         this.username = username;
@@ -14,7 +14,7 @@ public abstract class Character implements GameObject {
 
     @Override
     public String getUsername() {
-        return String.format("\"%s\"", this.username);
+        return this.username;
     }
 
     @Override
@@ -33,18 +33,20 @@ public abstract class Character implements GameObject {
     }
 
     @Override
-    public String getHashedPassword() {
+    public T getHashedPassword() {
         return this.hashedPassword;
     }
 
     @Override
-    public void setHashedPassword(String hashedPassword) {
+    public void setHashedPassword(T hashedPassword) {
         this.hashedPassword = hashedPassword;
     }
 
     @Override
     public String toString() {
-        return String.format("\"%s\" | \"%s\" -> %s\n", this.getUsername(), this.getHashedPassword(),
+        return String.format("\"%s\" | \"%s\" -> %s%n",
+                this.getUsername(),
+                this.getHashedPassword(),
                 this.getClass().getSimpleName());
     }
 
