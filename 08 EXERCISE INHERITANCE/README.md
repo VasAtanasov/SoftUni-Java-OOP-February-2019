@@ -6,7 +6,7 @@ This document defines the exercises for "Java OOP" course @ Software University.
 
 ![PlantUML model](http://www.plantuml.com/plantuml/svg/ROz13i8W54Jt_nIpR5DxWSP5ZNjZuWc842IXaC3NZNftlmLYZ2wPDypCdpEhnDV5qz6a70EsZt74_kAy9ZfxbJCgk1C0Z0XgCHDEd5omLL9M51SOj0f3-z8Lr-RD-khDXW-IK56F2RVez0VkhEd4_WK6S2n-T09QEJtRn7LlMJYKns_tttI9c4tGSlyB)
 
-![alternative text](http://www.plantuml.com/plantuml/proxy?src=[https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt](https://raw.githubusercontent.com/VasAtanasov/SoftUni-Java-OOP-February-2019/master/08%20EXERCISE%20INHERITANCE/resources/UML/Person.txt))
+![](./resources/UML/Person-UML.svg)
 
 You are asked to model an application for storing data about people. You should be able to have a person and a child. The child is derived of the person. Your task is to model the application. The only constraints are:
 
@@ -528,56 +528,8 @@ Songs added: 5
 Playlist length: 1h 0m 1s
 Problem 6.	*Animals
 Create a hierarchy of Animals. Your task is simple: there should be a base class Animal which all others derive from. Your program should have 3 different animals – Dog, Frog and Cat. 
-Animal
--	name: String
--	age: int 
--	gender: String 
-+ 	Animal (String, int, String) 
--	setName (String) : void
--	setAge (int) : void
--	setGender (String) : void
--	produceSound(): String
-Let’s go deeper in the hierarchy and create two additional classes – Kitten and Tomcat. Kittens are female and Tomcats are male! 
 
-
-
-
-
-
-Dog
-	
-+	Dog (String, int, String)
-+	produceSound() : String
-
-
-
-Cat
-	
-+	Cat (String, int, String)
-+	produceSound() : String
-Frog
-	
-+	Frog (String, int, String)
-+	produceSound() : String
-
-
-
-
-Tomcat
-	
-+	Tomcat (String, int, String)
--	setGender(String) : void
-+	produceSound() : String
-
-Kitten
-	
-+	Kitten (String, int, String)
--	setGender(String) : void
-+	produceSound() : String
-
-
-
-
+![PlantUML model](http://www.plantuml.com/plantuml/svg/jLB1QiCm3BtdAzunfSqFb1rQDhh3O9Vk1xJ464Di3rlP9Uk_JrGuetCEWxARtfFUaopha9aIJtviZi5v6l7mrNLuYlO6FnBVu5EI0Y4LlJXc4txmM_Iz2FgHSeRAvWP0Xq3Ux77cv89LXgmGBZ0KMXC6aqh9bTn2BT0gkOEKxw1Wepfamw_YZRRGUtn6Dop9evMSwAh4yxNXccwczyo9UhvWYuyKXwatvpY5eTqiJxWq-ah8mZ3hj1AkZohfoWcrbQonM4bubzKfBMDfV8-P_dAnKxHk-6kvzMx_qawFgBHJz1_j3YAIy_y6)
 
 We are ready now, but the task is not complete. Along with the animals, there should be and a class which classifies its derived classes as sound producible. You may guess that all animals are sound producible. The only one mandatory functionality of all sound producible objects is to produceSound(). For instance, the dog should bark.
 Your task is to model the hierarchy and test its functionality. Create an animal of all kinds and make them produce sound. 
