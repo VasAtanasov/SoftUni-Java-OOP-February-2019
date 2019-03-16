@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="642167a1-f7c3-4bc9-939b-db71cb40edce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Cram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Gandalf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/HoneyCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Lembas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Melon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Mushrooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08 EXERCISE INHERITANCE/mordorscrueltyplan/src/main/java/Other.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/bordercontrol/src/main/java/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/bordercontrol/src/main/java/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/bordercontrol/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/bordercontrol/src/main/java/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/main/java/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/main/java/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/main/java/Rentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/main/java/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/main/java/Sellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/test/java/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/test/java/TestClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/test/java/TestEncapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/carshop/src/test/java/TestMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/doom/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/doom/src/main/java/Archangel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/doom/src/main/java/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/doom/src/main/java/Demon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/doom/src/main/java/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/doom/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/ferrari/src/main/java/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/ferrari/src/main/java/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../09 INTERFACES AND ABSTRACTION/ferrari/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddRemovable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddRemoveCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Addable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/interfaces/Birthable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/interfaces/Browsable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/interfaces/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/interfaces/Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/interfaces/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/interfaces/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/models/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/models/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/models/Rebel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/models/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfacesexercises/src/main/java/models/Smartphone.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Addable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddRemovable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AddRemoveCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyListImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Addable.java" />
+        <option value="$PROJECT_DIR$/src/AddRemovable.java" />
+        <option value="$PROJECT_DIR$/src/MyList.java" />
+        <option value="$PROJECT_DIR$/src/Collection.java" />
+        <option value="$PROJECT_DIR$/src/AddCollection.java" />
+        <option value="$PROJECT_DIR$/src/AddRemoveCollection.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/MyListImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="collectionhierarchy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collectionhierarchy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552654657032" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="642167a1-f7c3-4bc9-939b-db71cb40edce" name="Default Changelist" comment="" />
+      <created>1552653758118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552653758118</updated>
+      <workItem from="1552653759478" duration="944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="944000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyListImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Addable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddRemovable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddRemoveCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
