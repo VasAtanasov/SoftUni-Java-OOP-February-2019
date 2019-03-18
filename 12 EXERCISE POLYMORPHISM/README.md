@@ -81,7 +81,7 @@ Vehicle {initial fuel quantity} {liters per km} {tank capacity}
 
 - After each Drive command print whether the Car/Truck was able to travel given distance in format if it’s successful:
 
-Car/Truck/Bus travelled {distance} km
+    Car/Truck/Bus travelled {distance} km
 
 - Or if it is not:
 
@@ -347,7 +347,7 @@ The total memory allowed for use by your program is 16MB
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./calculator/src">Word</a></b></p>
+<p><b>Solution: <a href="./calculator/src">Calculator</a></b></p>
 
 <p><b>Document with tasks description: <a href="./resources/05. Calculator_05. Calculator-Description.docx">05. Calculator_05. Calculator-Description.docx</a></b></p>
 
