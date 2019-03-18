@@ -11,33 +11,30 @@ Create a class Person, which should have private fields for:
 
 You should be able to use the class like this:
 
-Main.java
+### Main.java
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(reader.readLine());
-
-        List<Person> people = new ArrayList<>();
-
-        for (int i = 0; i < n; i++) {
-            String[] input = reader.readLine().split(" ");
-            people.add(new Person(input[0], input[1], Integer.parseInt(input[2])));
-        }
-
-        Collections.sort(people, (firstPerson, secondPerson) -> {
-            int sComp = firstPerson.getFirstName().compareTo(secondPerson.getFirstName());
-
-            if (sComp != 0) {
-                return sComp;
-            } else {
-                return Integer.compare(firstPerson.getAge(), secondPerson.getAge()); 
-            }
-        });
-
-        for (Person person : people) {
-            System.out.println(person.toString());
-        }
+```java
+public static void main(String[] args) throws IOException {
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    int n = Integer.parseInt(reader.readLine());
+    List<Person> people = new ArrayList<>();
+    for (int i = 0; i < n; i++) {
+        String[] input = reader.readLine().split(" ");
+        people.add(new Person(input[0], input[1], Integer.parseInt(input[2])));
     }
+    Collections.sort(people, (firstPerson, secondPerson) -> {
+        int sComp = firstPerson.getFirstName().compareTo(secondPerson.getFirstName());
+        if (sComp != 0) {
+            return sComp;
+        } else {
+            return Integer.compare(firstPerson.getAge(), secondPerson.getAge()); 
+        }
+    });
+    for (Person person : people) {
+        System.out.println(person.toString());
+    }
+}
+```
 
 <table>
 <thead>
@@ -79,16 +76,18 @@ New fields and methods
 
 You should be able to use the class like this:
 
-Main.java
+### Main.java
 
-    public static void main(String[] args) throws IOException {
-        //TODO: Add reading logic
-        doube bonus = Double.parseDouble(reader.readLine());
-        for (Person person : people) {
-            person.increaseSalary(bonus);
-            System.out.println(person.toString());
-        }
+```java
+public static void main(String[] args) throws IOException {
+    //TODO: Add reading logic
+    doube bonus = Double.parseDouble(reader.readLine());
+    for (Person person : people) {
+        person.increaseSalary(bonus);
+        System.out.println(person.toString());
     }
+}
+```
 
 ### Examples
 
