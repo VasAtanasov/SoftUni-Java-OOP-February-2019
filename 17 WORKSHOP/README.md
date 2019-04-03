@@ -284,6 +284,6 @@ Implement a GetStatistic command which prints the percentage of participants for
     Second place: RowBoat Model: ExampleRowBoat2 Time: 0.21 sec
     Third place: RowBoat Model: ExampleRowBoat Time: 0.33 sec
 
-### Solution: [Boat Racing](../../boatracing/src)
+### Solution: [Boat Racing](./boatracing/src)
 
 [I'm a relative reference to a repository file](../resources)
