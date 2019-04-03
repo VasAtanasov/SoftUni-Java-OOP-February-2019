@@ -286,4 +286,4 @@ Implement a GetStatistic command which prints the percentage of participants for
 
 ### Solution: [Boat Racing](./boatracing/src)
 
-[I'm a relative reference to a repository file](../resources)
+<p><b>Document with tasks description: <a href="./resources/08. Java-OOP-Workshop-Boat-Racing-Simulator-Description.docx">08. Java-OOP-Workshop-Boat-Racing-Simulator-Description.docx</a></b></p>
