@@ -35,7 +35,7 @@ Create as many commands as you like
 
 Test your commands
 
-![img3](./resources/media/image3.png)
+![img3](./resources/media/image3.PNG)
 
 ## Part II: Observer Design Pattern
 
